@@ -1,0 +1,26 @@
+{
+  "name": "nuxt-cedar",
+  "version": "1.0.0",
+  "description": "My superior Nuxt.js project",
+  "author": "Zach Folwick",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@rei/cdr-assets": "^0.3.0",
+    "@rei/cdr-breadcrumb": "^1.0.0",
+    "@rei/cdr-icon": "^0.2.1",
+    "@rei/cdr-link": "^1.0.0",
+    "micro": "^9.0.0",
+    "micro-route": "^2.4.0",
+    "nuxt": "^1.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.1",
+    "nodemon": "^1.11.0"
+  }
+}
